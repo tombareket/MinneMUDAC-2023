@@ -1,2 +1,5 @@
 # MinneMUDAC-2023
-My team's analysis and presentation for the MinneMUDAC 2023 data science competition
+This is my team's submission for the MinneMUDAC 2023 data science competition, in which we earned 1st place in the Undergraduate division. It includes 3 files:
+1. model_building.py: the model we used to predict attendance at the Minnesota Twins' baseball games. We built a gradient boosting for prediction and used a Boruta algorithm for feature selection, both in Python.
+2. visualization.rmd: the visuals we used to showcase and contextualize our findings. The most important visuals here showcase the relationship between weather and attendance for the overall MLB and for the Minnesota Twins - we argued that the difference is more pronounced for the Twins because Minnesota's winter weather is far more extreme than that of other states. The importance of weather as a predictor was confirmed during feature selection.
+3. Final_presentation.ppt: the presentation we showcased at the competition. We incorporated financial and economic principles to recommend pricing models based on our predicted attendance and the estimated elasticity of demand for baseball tickets.
